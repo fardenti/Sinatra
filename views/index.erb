@@ -1,4 +1,6 @@
-<h1 style='color: <%= @color %>'>My name is <%= @name %> <%= @age %></h1>
+<% if @name %>
+<h1 style='color: <%= @color %>'>My name is <%= @name %> and I am <%= @age %> years old</h1>
+<% end %>
 <div>
 <img style='border: 3px dashed red' src='http://bit.ly/1eze8aE'>
 </div>
